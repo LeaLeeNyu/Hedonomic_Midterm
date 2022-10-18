@@ -1,0 +1,236 @@
+fileFormatVersion: 2
+guid: 2271a5e5cbfa62d43a07ef812cc39c4e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Box003
+    100002: Box009
+    100004: cup003
+    100006: cup003.001
+    100008: cup003.002
+    100010: glass
+    100012: //RootNode
+    100014: lamp
+    100016: lamp_quad001
+    100018: lamp_quad001.001
+    100020: lamp_quad001.002
+    100022: law001
+    100024: law002
+    100026: law002.001
+    100028: Line001
+    100030: Line003
+    100032: Line006
+    100034: Line007
+    100036: pine
+    100038: Plane003.001
+    100040: Plane004.001
+    100042: Plane005
+    100044: prut
+    100046: pylon
+    100048: Seat
+    100050: table
+    100052: Text001
+    400000: Box003
+    400002: Box009
+    400004: cup003
+    400006: cup003.001
+    400008: cup003.002
+    400010: glass
+    400012: //RootNode
+    400014: lamp
+    400016: lamp_quad001
+    400018: lamp_quad001.001
+    400020: lamp_quad001.002
+    400022: law001
+    400024: law002
+    400026: law002.001
+    400028: Line001
+    400030: Line003
+    400032: Line006
+    400034: Line007
+    400036: pine
+    400038: Plane003.001
+    400040: Plane004.001
+    400042: Plane005
+    400044: prut
+    400046: pylon
+    400048: Seat
+    400050: table
+    400052: Text001
+    2100000: neon.blue
+    2100002: Plastic_dark
+    2100004: neon_pink
+    2100006: Plastic
+    2100008: No Name
+    2100010: metal
+    2100012: glass
+    2100014: 'Material #76.002'
+    2100016: 'Material #77'
+    2300000: Box003
+    2300002: Box009
+    2300004: cup003
+    2300006: cup003.001
+    2300008: cup003.002
+    2300010: glass
+    2300012: lamp
+    2300014: lamp_quad001
+    2300016: lamp_quad001.001
+    2300018: lamp_quad001.002
+    2300020: law001
+    2300022: law002
+    2300024: law002.001
+    2300026: pine
+    2300028: Plane003.001
+    2300030: Plane004.001
+    2300032: Plane005
+    2300034: prut
+    2300036: pylon
+    2300038: Seat
+    2300040: table
+    3300000: Box003
+    3300002: Box009
+    3300004: cup003
+    3300006: cup003.001
+    3300008: cup003.002
+    3300010: glass
+    3300012: lamp
+    3300014: lamp_quad001
+    3300016: lamp_quad001.001
+    3300018: lamp_quad001.002
+    3300020: law001
+    3300022: law002
+    3300024: law002.001
+    3300026: pine
+    3300028: Plane003.001
+    3300030: Plane004.001
+    3300032: Plane005
+    3300034: prut
+    3300036: pylon
+    3300038: Seat
+    3300040: table
+    4300000: lamp_quad001.002
+    4300002: lamp_quad001.001
+    4300004: law002.001
+    4300006: cup003.002
+    4300008: cup003.001
+    4300010: pine
+    4300012: Plane005
+    4300014: Box009
+    4300016: cup003
+    4300018: prut
+    4300020: lamp_quad001
+    4300022: pylon
+    4300024: glass
+    4300026: law002
+    4300028: law001
+    4300030: Plane004.001
+    4300032: Plane003.001
+    4300034: table
+    4300036: Seat
+    4300038: Box003
+    4300040: lamp
+    6400000: Box003
+    6400002: Box009
+    6400004: cup003
+    6400006: cup003.001
+    6400008: cup003.002
+    6400010: glass
+    6400012: lamp
+    6400014: lamp_quad001
+    6400016: lamp_quad001.001
+    6400018: lamp_quad001.002
+    6400020: law001
+    6400022: law002
+    6400024: law002.001
+    6400026: pine
+    6400028: Plane003.001
+    6400030: Plane004.001
+    6400032: Plane005
+    6400034: prut
+    6400036: pylon
+    6400038: Seat
+    6400040: table
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

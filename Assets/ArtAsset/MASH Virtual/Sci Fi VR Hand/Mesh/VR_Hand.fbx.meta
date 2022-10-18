@@ -1,0 +1,260 @@
+fileFormatVersion: 2
+guid: 1237edfb20e068744a7b3df650c1603c
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Hand_Mesh
+    100002: Hand_Root
+    100004: Index_finger
+    100006: Index_finger_0
+    100008: Index_finger_1
+    100010: Index_finger_end
+    100012: Index_finger_joint_0
+    100014: Index_finger_joint_1
+    100016: Middle_finger
+    100018: Middle_finger_0
+    100020: Middle_finger_1
+    100022: Middle_finger_end
+    100024: Middle_finger_joint_0
+    100026: Middle_finger_joint_1
+    100028: Pinky_finger
+    100030: Pinky_finger_0
+    100032: Pinky_finger_1
+    100034: Pinky_finger_end
+    100036: Pinky_finger_joint_0
+    100038: Pinky_finger_joint_1
+    100040: polySurface10
+    100042: polySurface11
+    100044: polySurface12
+    100046: polySurface13
+    100048: polySurface14
+    100050: polySurface7
+    100052: polySurface8
+    100054: polySurface9
+    100056: Ring_finger
+    100058: Ring_finger_0
+    100060: Ring_finger_1
+    100062: Ring_finger_end
+    100064: Ring_finger_joint_0
+    100066: Ring_finger_joint_1
+    100068: Rode1
+    100070: Rode2
+    100072: Rode3
+    100074: Rode4
+    100076: Thumb
+    100078: Thumb_0
+    100080: Thumb_end
+    100082: Thumb_joint_0
+    100084: //RootNode
+    100086: Watch
+    400000: Hand_Mesh
+    400002: Hand_Root
+    400004: Index_finger
+    400006: Index_finger_0
+    400008: Index_finger_1
+    400010: Index_finger_end
+    400012: Index_finger_joint_0
+    400014: Index_finger_joint_1
+    400016: Middle_finger
+    400018: Middle_finger_0
+    400020: Middle_finger_1
+    400022: Middle_finger_end
+    400024: Middle_finger_joint_0
+    400026: Middle_finger_joint_1
+    400028: Pinky_finger
+    400030: Pinky_finger_0
+    400032: Pinky_finger_1
+    400034: Pinky_finger_end
+    400036: Pinky_finger_joint_0
+    400038: Pinky_finger_joint_1
+    400040: polySurface10
+    400042: polySurface11
+    400044: polySurface12
+    400046: polySurface13
+    400048: polySurface14
+    400050: polySurface7
+    400052: polySurface8
+    400054: polySurface9
+    400056: Ring_finger
+    400058: Ring_finger_0
+    400060: Ring_finger_1
+    400062: Ring_finger_end
+    400064: Ring_finger_joint_0
+    400066: Ring_finger_joint_1
+    400068: Rode1
+    400070: Rode2
+    400072: Rode3
+    400074: Rode4
+    400076: Thumb
+    400078: Thumb_0
+    400080: Thumb_end
+    400082: Thumb_joint_0
+    400084: //RootNode
+    400086: Watch
+    2100000: New_Hand_Parts
+    2100002: Watch_Mat
+    2100004: Hand
+    2100006: Parts
+    2100008: Parts_Mat
+    2100010: Hand_Mat
+    2300000: Index_finger_joint_0
+    2300002: Index_finger_joint_1
+    2300004: Middle_finger_joint_0
+    2300006: Middle_finger_joint_1
+    2300008: Pinky_finger_joint_0
+    2300010: Pinky_finger_joint_1
+    2300012: polySurface10
+    2300014: polySurface11
+    2300016: polySurface12
+    2300018: polySurface13
+    2300020: polySurface14
+    2300022: polySurface7
+    2300024: polySurface8
+    2300026: polySurface9
+    2300028: Ring_finger_joint_0
+    2300030: Ring_finger_joint_1
+    2300032: Thumb_joint_0
+    2300034: Watch
+    3300000: Index_finger_joint_0
+    3300002: Index_finger_joint_1
+    3300004: Middle_finger_joint_0
+    3300006: Middle_finger_joint_1
+    3300008: Pinky_finger_joint_0
+    3300010: Pinky_finger_joint_1
+    3300012: polySurface10
+    3300014: polySurface11
+    3300016: polySurface12
+    3300018: polySurface13
+    3300020: polySurface14
+    3300022: polySurface7
+    3300024: polySurface8
+    3300026: polySurface9
+    3300028: Ring_finger_joint_0
+    3300030: Ring_finger_joint_1
+    3300032: Thumb_joint_0
+    3300034: Watch
+    4300000: Middle_finger_joint_1
+    4300002: Middle_finger_joint_0
+    4300004: Ring_finger_joint_1
+    4300006: Ring_finger_joint_0
+    4300008: Pinky_finger_joint_1
+    4300010: Pinky_finger_joint_0
+    4300012: Index_finger_joint_1
+    4300014: Index_finger_joint_0
+    4300016: Thumb_joint_0
+    4300018: Watch
+    4300020: polySurface7
+    4300022: polySurface8
+    4300024: polySurface9
+    4300026: polySurface10
+    4300028: polySurface11
+    4300030: polySurface12
+    4300032: polySurface13
+    4300034: polySurface14
+    4300036: Hand_Mesh
+    7400000: normal
+    7400002: Grap
+    7400004: Grap Release
+    9500000: //RootNode
+    13700000: Hand_Mesh
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hand_Mat
+    second: {fileID: 2100000, guid: 947b58aed9d4694428a37e1c44e33125, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Parts_Mat
+    second: {fileID: 2100000, guid: bdfb34a2019ad5045baf4e459e355f56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Watch_Mat
+    second: {fileID: 2100000, guid: d69ea8841b77b064293b783e460308b8, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 5
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.099999994
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

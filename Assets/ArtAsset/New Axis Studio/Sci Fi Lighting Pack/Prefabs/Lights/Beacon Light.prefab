@@ -1,0 +1,230 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1236940752668047273
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2043514714832606467}
+  m_Layer: 0
+  m_Name: Parts
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &2043514714832606467
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1236940752668047273}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2635950051576428083}
+  m_Father: {fileID: 45247343344889018}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8966609362895898643
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 45247343344889018}
+  - component: {fileID: -4633785716796460}
+  m_Layer: 0
+  m_Name: Beacon Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &45247343344889018
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8966609362895898643}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2043514714832606467}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-4633785716796460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8966609362895898643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 570de7c311ecb8343b1bd823753510fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSource: {fileID: 8918677789972337449}
+  Bulb: {fileID: 6032416358334335886}
+  Fixture: {fileID: 4195302097049745021}
+  Shade: {fileID: 315883691114616407}
+  ShadowCaster: {fileID: 1357587077833936379}
+  Parts:
+  - {fileID: 7132434551248711445, guid: 99c7cbf716938bd4a85068c5b386220b, type: 3}
+  - {fileID: 7340631356915659909, guid: 5e0a49501ffd89d4c8c034f8c3c4f8e0, type: 3}
+  - {fileID: 5004781715847170312, guid: bce92a913e92684469f8d35bafc8b30e, type: 3}
+  PartIndex: 0
+  BaseMat: {fileID: 2100000, guid: 19385b4b06ee1eb4d8dca2ce59593987, type: 2}
+  ShadeMat: {fileID: 2100000, guid: 8b350fbb39d649241894968546a376de, type: 2}
+  LightColor: {r: 0, g: 0, b: 0, a: 0}
+  LightIntensity: 0
+  IsInstanced: 0
+  ThisTargetName: Beacon Light
+  BaseMatCopy: {fileID: 0}
+  ShadeMatCopy: {fileID: 0}
+--- !u!1001 &6329425955740102624
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2043514714832606467}
+    m_Modifications:
+    - target: {fileID: 1177576583280438655, guid: 5e0a49501ffd89d4c8c034f8c3c4f8e0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967294
+      objectReference: {fileID: 0}
+    - target: {fileID: 1922438160569895467, guid: 5e0a49501ffd89d4c8c034f8c3c4f8e0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967294
+      objectReference: {fileID: 0}
+    - target: {fileID: 2466856760648253361, guid: 5e0a49501ffd89d4c8c034f8c3c4f8e0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967294
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815395100939989234, guid: 5e0a49501ffd89d4c8c034f8c3c4f8e0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967294
+      objectReference: {fileID: 0}
+    - target: {fileID: 2863616628463050176, guid: 5e0a49501ffd89d4c8c034f8c3c4f8e0,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4972463400575918619, guid: 5e0a49501ffd89d4c8c034f8c3c4f8e0,
+        type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340631356915659909, guid: 5e0a49501ffd89d4c8c034f8c3c4f8e0,
+        type: 3}
+      propertyPath: m_Name
+      value: Beacon Light Medium
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305312555746990547, guid: 5e0a49501ffd89d4c8c034f8c3c4f8e0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305312555746990547, guid: 5e0a49501ffd89d4c8c034f8c3c4f8e0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305312555746990547, guid: 5e0a49501ffd89d4c8c034f8c3c4f8e0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305312555746990547, guid: 5e0a49501ffd89d4c8c034f8c3c4f8e0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305312555746990547, guid: 5e0a49501ffd89d4c8c034f8c3c4f8e0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305312555746990547, guid: 5e0a49501ffd89d4c8c034f8c3c4f8e0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305312555746990547, guid: 5e0a49501ffd89d4c8c034f8c3c4f8e0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305312555746990547, guid: 5e0a49501ffd89d4c8c034f8c3c4f8e0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305312555746990547, guid: 5e0a49501ffd89d4c8c034f8c3c4f8e0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305312555746990547, guid: 5e0a49501ffd89d4c8c034f8c3c4f8e0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305312555746990547, guid: 5e0a49501ffd89d4c8c034f8c3c4f8e0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5e0a49501ffd89d4c8c034f8c3c4f8e0, type: 3}
+--- !u!4 &2635950051576428083 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8305312555746990547, guid: 5e0a49501ffd89d4c8c034f8c3c4f8e0,
+    type: 3}
+  m_PrefabInstance: {fileID: 6329425955740102624}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &6032416358334335886 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 315764244391961710, guid: 5e0a49501ffd89d4c8c034f8c3c4f8e0,
+    type: 3}
+  m_PrefabInstance: {fileID: 6329425955740102624}
+  m_PrefabAsset: {fileID: 0}
+--- !u!108 &8918677789972337449 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 3175918915829185737, guid: 5e0a49501ffd89d4c8c034f8c3c4f8e0,
+    type: 3}
+  m_PrefabInstance: {fileID: 6329425955740102624}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &4195302097049745021 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 7921293364624841117, guid: 5e0a49501ffd89d4c8c034f8c3c4f8e0,
+    type: 3}
+  m_PrefabInstance: {fileID: 6329425955740102624}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &315883691114616407 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6031619335405926839, guid: 5e0a49501ffd89d4c8c034f8c3c4f8e0,
+    type: 3}
+  m_PrefabInstance: {fileID: 6329425955740102624}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1357587077833936379 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 4972463400575918619, guid: 5e0a49501ffd89d4c8c034f8c3c4f8e0,
+    type: 3}
+  m_PrefabInstance: {fileID: 6329425955740102624}
+  m_PrefabAsset: {fileID: 0}

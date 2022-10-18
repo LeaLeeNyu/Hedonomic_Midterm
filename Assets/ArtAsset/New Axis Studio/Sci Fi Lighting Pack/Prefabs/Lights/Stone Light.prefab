@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7683966345862593751
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2412643403676641196}
+  m_Layer: 0
+  m_Name: Parts
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &2412643403676641196
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7683966345862593751}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1763559028006949518}
+  m_Father: {fileID: 2544168141080330775}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7896469097762844763
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2544168141080330775}
+  - component: {fileID: 1982919140245051248}
+  m_Layer: 0
+  m_Name: Stone Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &2544168141080330775
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7896469097762844763}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2412643403676641196}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1982919140245051248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7896469097762844763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 749b55cbbf2948e48891e9532ee3f56c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSource: {fileID: 6702446244271852165}
+  Fixture: {fileID: 7727132469689858433}
+  Shell: {fileID: 9218127548154539153}
+  Mat: {fileID: 2100000, guid: d71939fb5642441448070a2a5d7d13dd, type: 2}
+  LightColor: {r: 0, g: 0, b: 0, a: 0}
+  LightIntensity: 0
+  IsInstanced: 0
+  IsBaked: 0
+  ThisTargetName: Stone Light
+  HangDistance: 0
+  MatCopy: {fileID: 0}
+  BakedFixture: {fileID: 0}
+  BakedMesh: {fileID: 0}
+--- !u!1001 &5200267564623626957
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2412643403676641196}
+    m_Modifications:
+    - target: {fileID: 7352475500805087824, guid: 68286d605876c0e48b476951b47b15de,
+        type: 3}
+      propertyPath: m_Name
+      value: Stone Light Part
+      objectReference: {fileID: 0}
+    - target: {fileID: 5787798815858298947, guid: 68286d605876c0e48b476951b47b15de,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5787798815858298947, guid: 68286d605876c0e48b476951b47b15de,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5787798815858298947, guid: 68286d605876c0e48b476951b47b15de,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5787798815858298947, guid: 68286d605876c0e48b476951b47b15de,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5787798815858298947, guid: 68286d605876c0e48b476951b47b15de,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5787798815858298947, guid: 68286d605876c0e48b476951b47b15de,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5787798815858298947, guid: 68286d605876c0e48b476951b47b15de,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5787798815858298947, guid: 68286d605876c0e48b476951b47b15de,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5787798815858298947, guid: 68286d605876c0e48b476951b47b15de,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5787798815858298947, guid: 68286d605876c0e48b476951b47b15de,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5787798815858298947, guid: 68286d605876c0e48b476951b47b15de,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 68286d605876c0e48b476951b47b15de, type: 3}
+--- !u!4 &1763559028006949518 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5787798815858298947, guid: 68286d605876c0e48b476951b47b15de,
+    type: 3}
+  m_PrefabInstance: {fileID: 5200267564623626957}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &7727132469689858433 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2528566435620371276, guid: 68286d605876c0e48b476951b47b15de,
+    type: 3}
+  m_PrefabInstance: {fileID: 5200267564623626957}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &9218127548154539153 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4018989767631760988, guid: 68286d605876c0e48b476951b47b15de,
+    type: 3}
+  m_PrefabInstance: {fileID: 5200267564623626957}
+  m_PrefabAsset: {fileID: 0}
+--- !u!108 &6702446244271852165 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 1524697812864403528, guid: 68286d605876c0e48b476951b47b15de,
+    type: 3}
+  m_PrefabInstance: {fileID: 5200267564623626957}
+  m_PrefabAsset: {fileID: 0}

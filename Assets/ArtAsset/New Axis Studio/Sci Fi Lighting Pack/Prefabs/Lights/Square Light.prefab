@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1842542006993469462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7819775108617531860}
+  m_Layer: 0
+  m_Name: Parts
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &7819775108617531860
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842542006993469462}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 334583940332626270}
+  m_Father: {fileID: 4351705867174050808}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1864895609734447293
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4351705867174050808}
+  - component: {fileID: 6383944571678892472}
+  m_Layer: 0
+  m_Name: Square Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &4351705867174050808
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864895609734447293}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7819775108617531860}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6383944571678892472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864895609734447293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e613d87eaa6e70e41aaac0784400e91b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightSource: {fileID: 2068383419189648416}
+  Base: {fileID: 334583940332626270}
+  Mat: {fileID: 2100000, guid: 1ad462fcfd0b8e54fb80278ae08b98e2, type: 2}
+  LightColor: {r: 0, g: 0, b: 0, a: 0}
+  LightIntensity: 0
+  IsInstanced: 0
+  ThisTargetName: Square Light
+  MatCopy: {fileID: 0}
+--- !u!1001 &408984001233767751
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7819775108617531860}
+    m_Modifications:
+    - target: {fileID: 74782847143570457, guid: e3fc4832cbf0fb94bac32b95f9f49f53,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 74782847143570457, guid: e3fc4832cbf0fb94bac32b95f9f49f53,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 74782847143570457, guid: e3fc4832cbf0fb94bac32b95f9f49f53,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 74782847143570457, guid: e3fc4832cbf0fb94bac32b95f9f49f53,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 74782847143570457, guid: e3fc4832cbf0fb94bac32b95f9f49f53,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 74782847143570457, guid: e3fc4832cbf0fb94bac32b95f9f49f53,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 74782847143570457, guid: e3fc4832cbf0fb94bac32b95f9f49f53,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 74782847143570457, guid: e3fc4832cbf0fb94bac32b95f9f49f53,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 74782847143570457, guid: e3fc4832cbf0fb94bac32b95f9f49f53,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 74782847143570457, guid: e3fc4832cbf0fb94bac32b95f9f49f53,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 74782847143570457, guid: e3fc4832cbf0fb94bac32b95f9f49f53,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 286251560684256494, guid: e3fc4832cbf0fb94bac32b95f9f49f53,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1613515278176741048, guid: e3fc4832cbf0fb94bac32b95f9f49f53,
+        type: 3}
+      propertyPath: m_Name
+      value: Square Light Part
+      objectReference: {fileID: 0}
+    - target: {fileID: 1613515278176741048, guid: e3fc4832cbf0fb94bac32b95f9f49f53,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1808581224340394343, guid: e3fc4832cbf0fb94bac32b95f9f49f53,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.5287958
+      objectReference: {fileID: 0}
+    - target: {fileID: 1808581224340394343, guid: e3fc4832cbf0fb94bac32b95f9f49f53,
+        type: 3}
+      propertyPath: m_BounceIntensity
+      value: 0.5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e3fc4832cbf0fb94bac32b95f9f49f53, type: 3}
+--- !u!4 &334583940332626270 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 74782847143570457, guid: e3fc4832cbf0fb94bac32b95f9f49f53,
+    type: 3}
+  m_PrefabInstance: {fileID: 408984001233767751}
+  m_PrefabAsset: {fileID: 0}
+--- !u!108 &2068383419189648416 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 1808581224340394343, guid: e3fc4832cbf0fb94bac32b95f9f49f53,
+    type: 3}
+  m_PrefabInstance: {fileID: 408984001233767751}
+  m_PrefabAsset: {fileID: 0}

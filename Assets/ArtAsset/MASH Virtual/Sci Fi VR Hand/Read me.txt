@@ -1,0 +1,4 @@
+Note:
+1. To play VR Sci fi Hand scene you need to install SteamVR Plugin V2 asset from assets store.
+2. Then create Steam VR input by clicking on window>Steam VR input> save and Generate.
+3. Now you are ready to use VR Sci fi Hand.
