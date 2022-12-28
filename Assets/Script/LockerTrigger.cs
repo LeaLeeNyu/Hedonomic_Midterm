@@ -109,6 +109,6 @@ public class LockerTrigger : MonoBehaviour
 
     private void UpdateLockerWeight()
     {
-        lockerWight.text = BoxController.lockerWeight.ToString();
+        lockerWight.text = WeightController.lockerWeight.ToString();
     }
 }

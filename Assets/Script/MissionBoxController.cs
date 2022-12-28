@@ -13,7 +13,7 @@ public class MissionBoxController : BoxController
     private GameObject player;
 
 
-    private void OnEnable()
+    protected override void OnEnable()
     {
         XRMissionBoxGrabbable.PackageLockerSelectedEvent += AddLockerWeight;
         XRMissionBoxGrabbable.PackageLockerDeselectedEvent += ReduceLockerWeight;
@@ -21,7 +21,7 @@ public class MissionBoxController : BoxController
         XRMissionBoxGrabbable.PackageBackDeselectedEvent += ReduceSamWeight;
     }
 
-    private void OnDisable()
+    protected override void OnDisable()
     {
         XRMissionBoxGrabbable.PackageLockerSelectedEvent -= AddLockerWeight;
         XRMissionBoxGrabbable.PackageLockerDeselectedEvent -= ReduceLockerWeight;

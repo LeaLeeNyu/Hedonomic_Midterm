@@ -153,7 +153,7 @@ public class XRHandController : MonoBehaviour
     //Watch Window show
     void JoystickPressed()
     {
-        _targetDevice.TryGetFeatureValue(CommonUsages.gripButton, out bool isPressed);
+        _targetDevice.TryGetFeatureValue(CommonUsages.triggerButton, out bool isPressed);
         if (isPressed)
         {
             watchState = true;
@@ -191,7 +191,7 @@ public class XRHandController : MonoBehaviour
     void JoyStickValue()
     {
         _targetDevice.TryGetFeatureValue(CommonUsages.primary2DAxis, out Vector2 JoystickValue);
-        _targetDevice.TryGetFeatureValue(CommonUsages.triggerButton, out bool trigger);
+        _targetDevice.TryGetFeatureValue(CommonUsages.gripButton, out bool trigger);
 
         //Normal State
         if (JoystickValue.x==0 && JoystickValue.y == 0)

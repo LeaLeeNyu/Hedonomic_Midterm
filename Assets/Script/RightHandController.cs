@@ -39,6 +39,7 @@ public class RightHandController : MonoBehaviour
         {
             inputDeviceCharacteristics = InputDeviceCharacteristics.Left | InputDeviceCharacteristics.Controller;
             spawnedHand = GameObject.Find(leftHandName);
+            Debug.Log("lefthand");
         }
         else
         {
@@ -66,7 +67,16 @@ public class RightHandController : MonoBehaviour
 
         if (_targetDevice.TryGetFeatureValue(CommonUsages.grip, out float grip))
         {
-            _handAnimator.SetFloat("Trigger", grip);
+            _handAnimator.SetFloat("Grab", grip);
+        }
+        else
+        {
+            _handAnimator.SetFloat("Grab", 0);
+        }
+
+        if (_targetDevice.TryGetFeatureValue(CommonUsages.trigger, out float trigger))
+        {
+            _handAnimator.SetFloat("Trigger", trigger);
         }
         else
         {

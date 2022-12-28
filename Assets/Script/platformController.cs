@@ -78,7 +78,7 @@ public class platformController : MonoBehaviour
         }
 
         //Update weight
-        weight.text = BoxController.samWeight.ToString();
+        weight.text = WeightController.samWeight.ToString();
 
     }
 

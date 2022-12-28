@@ -12,10 +12,6 @@ public class BoxController : MonoBehaviour
     [SerializeField] private float socketScale = 1.2f;
     [SerializeField] private float normalScale = 1.2f;
 
-    //Locker Weight 
-    public static float lockerWeight = 0f;
-    public static float samWeight = 0f;
-
     //Line
     protected GameObject line;
     public GameObject lineP;
@@ -23,20 +19,20 @@ public class BoxController : MonoBehaviour
     public PackageInfoSO packageInfo;
 
 
-    private void OnEnable()
+    protected virtual void OnEnable()
     {
-        XRBoxGrabbable.PackageLockerSelectedEvent += AddLockerWeight;
-        XRBoxGrabbable.PackageLockerDeselectedEvent += ReduceLockerWeight;
-        XRBoxGrabbable.PackageBackSelectedEvent += AddSamWeight;
-        XRBoxGrabbable.PackageBackDeselectedEvent += ReduceSamWeight;
+        XRBoxGrabbable.BoxPackageLockerSelectedEvent += AddLockerWeight;
+        XRBoxGrabbable.BoxPackageLockerDeselectedEvent += ReduceLockerWeight;
+        XRBoxGrabbable.BoxPackageBackSelectedEvent += AddSamWeight;
+        XRBoxGrabbable.BoxPackageBackDeselectedEvent += ReduceSamWeight;
     }
 
-    private void OnDisable()
+    protected virtual void OnDisable()
     {
-        XRBoxGrabbable.PackageLockerSelectedEvent -= AddLockerWeight;
-        XRBoxGrabbable.PackageLockerDeselectedEvent -= ReduceLockerWeight;
-        XRBoxGrabbable.PackageBackSelectedEvent -= AddSamWeight;
-        XRBoxGrabbable.PackageBackDeselectedEvent -= ReduceSamWeight;
+        XRBoxGrabbable.BoxPackageLockerSelectedEvent -= AddLockerWeight;
+        XRBoxGrabbable.BoxPackageLockerDeselectedEvent -= ReduceLockerWeight;
+        XRBoxGrabbable.BoxPackageBackSelectedEvent -= AddSamWeight;
+        XRBoxGrabbable.BoxPackageBackDeselectedEvent -= ReduceSamWeight;
     }
 
     public void ShowHandInfo()
@@ -76,21 +72,21 @@ public class BoxController : MonoBehaviour
 
     public void AddLockerWeight()
     {
-        lockerWeight += packageInfo.weight;
+        WeightController.lockerWeight += 10f;
     }
 
     public void ReduceLockerWeight()
     {
-        lockerWeight -= packageInfo.weight;
+        WeightController.lockerWeight -= 10f;
     }
 
     public void AddSamWeight()
     {
-        samWeight += packageInfo.weight;
+        WeightController.samWeight += packageInfo.weight;
     }
 
     public void ReduceSamWeight()
     {
-        samWeight -= packageInfo.weight;
+        WeightController.samWeight -= packageInfo.weight;
     }
 }

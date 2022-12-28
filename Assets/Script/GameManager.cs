@@ -24,8 +24,8 @@ public class GameManager : MonoBehaviour
     public void RestartScene()
     {
        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        BoxController.samWeight = 0f;
-        BoxController.lockerWeight = 0f;
+        WeightController.samWeight = 0f;
+        WeightController.lockerWeight = 0f;
     }
 
 }

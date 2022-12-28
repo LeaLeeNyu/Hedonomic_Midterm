@@ -9,12 +9,12 @@ public class XRBoxGrabbable : XRGrabInteractable
     [SerializeField]private BoxController boxController;
 
     //Select by socket
-    [HideInInspector] public static event UnityAction PackageBackSelectedEvent = delegate { };
-    [HideInInspector] public static event UnityAction PackageLockerSelectedEvent = delegate { };
+    [HideInInspector] public static event UnityAction BoxPackageBackSelectedEvent = delegate { };
+    [HideInInspector] public static event UnityAction BoxPackageLockerSelectedEvent = delegate { };
 
     //Deselect by socket
-    [HideInInspector] public static event UnityAction PackageBackDeselectedEvent = delegate { };
-    [HideInInspector] public static event UnityAction PackageLockerDeselectedEvent = delegate { };
+    [HideInInspector] public static event UnityAction BoxPackageBackDeselectedEvent = delegate { };
+    [HideInInspector] public static event UnityAction BoxPackageLockerDeselectedEvent = delegate { };
 
 
     [Obsolete]
@@ -33,7 +33,7 @@ public class XRBoxGrabbable : XRGrabInteractable
             boxController.ShowMissionInfo();
         }else if (interactor.CompareTag("LockerSocket"))
         {
-            PackageLockerSelectedEvent.Invoke();
+            BoxPackageLockerSelectedEvent.Invoke();
             Debug.Log("select by locker");
         }
     }
@@ -54,7 +54,7 @@ public class XRBoxGrabbable : XRGrabInteractable
         }
         else if (interactor.CompareTag("LockerSocket"))
         {
-            PackageLockerDeselectedEvent.Invoke();
+            BoxPackageLockerDeselectedEvent.Invoke();
         }
     }
 
